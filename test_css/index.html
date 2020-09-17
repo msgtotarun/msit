@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form1</title>
+  </head>
+  <link rel="stylesheet" href="./style.css" />
+
+  <body>
+    <div class="contain1">
+      <h1 id="h1">Login form</h1>
+      <div class="form1">
+        <div class="btn_box">
+          <div id="btn"></div>
+          <button type="button" class="tooglebtn" onclick="login()">
+            Login
+          </button>
+          <button type="button" class="tooglebtn" onclick="register()">
+            Register
+          </button>
+        </div>
+        <div>
+          <form id="login" class="forms">
+            <input
+              type="text"
+              class="feild"
+              id="uname"
+              placeholder="Username"
+            />
+            <input
+              type="password"
+              id="pwd"
+              class="feild"
+              placeholder="password"
+            />
+            <input type="checkbox" id="chk" />
+            <span id="remember">Remember me</span>
+            <button id="btn1">Login</button>
+          </form>
+          <form id="register" class="forms">
+            <input
+              type="email"
+              class="feild"
+              id="email"
+              placeholder="Email-id"
+            />
+            <input
+              type="text"
+              class="feild"
+              id="uname"
+              placeholder="Username"
+            />
+            <input
+              type="password"
+              id="pwd"
+              class="feild"
+              placeholder="password"
+            />
+            <input type="checkbox" id="chk" />
+            <span id="remember">I Agree to all the terms and conditions</span>
+            <button id="btn1">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script>
+      var x = document.getElementById("login");
+      var y = document.getElementById("register");
+      var z = document.getElementById("btn");
+
+      function register() {
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "110px";
+        document.getElementById("h1").innerHTML = "Register form";
+      }
+
+      function login() {
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "0";
+        document.getElementById("h1").innerText = "Login form";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contain1 {
+    height: 100%;
+    width: 100%;
+    background-image: url(./test.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    opacity: 0.9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #ffad06;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0;
+    margin-right: 15%;
+}
+
+.form1 {
+    width: 380px;
+    height: 480px;
+    padding: 5px;
+    position: relative;
+    background: rgba(15, 120, 134, 0.4);
+    margin: 5% 15% 0% 30%;
+    overflow: hidden;
+}
+
+.btn_box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 0.5;
+    background: rgba(18, 19, 19, 0.288);
+    border-radius: 30px;
+
+}
+
+.tooglebtn {
+    padding: 10px 30px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    background: transparent;
+    color: aliceblue;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #FF105F, #ffad06);
+    border-radius: 35px;
+    transition: .5s;
+}
+
+.forms {
+    position: absolute;
+    top: 120px;
+    width: 280px;
+    transition: .5;
+}
+
+.feild {
+    margin: 3% 15%;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+}
+
+#btn1 {
+    cursor: pointer;
+    margin: 9%;
+    padding: 8px;
+    background: linear-gradient(to right, #ff1060c2, #c5880d);
+    border-radius: 50px;
+    color: #ffff;
+    display: block;
+    width: 85%;
+}
+
+#login {
+    left: 50px;
+}
+
+#chk {
+    height: 20px;
+    width: 15px;
+    margin: 10% 10%;
+}
+
+#remember {
+
+    color: aliceblue;
+}
+
+#register {
+    left: 450px;
+}
