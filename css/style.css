@@ -88,8 +88,9 @@ th {
     padding: 20px;
 }
 
-#comment input[type=textarea] {
-    width: 50%;
+#comment textarea {
+    width: 600px;
+    height: 200px;
 }
 
 #comment input {
