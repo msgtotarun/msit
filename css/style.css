@@ -89,8 +89,9 @@ th {
 }
 
 #comment input {
-    padding: 5px;
     margin: 20px;
+    padding: 5px;
+
 }
 
 #comment input[type=submit] {
