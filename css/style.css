@@ -88,6 +88,10 @@ th {
     padding: 20px;
 }
 
+#comment input[type=textarea] {
+    width: fit-content;
+}
+
 #comment input {
     margin: 20px;
     padding: 5px;
