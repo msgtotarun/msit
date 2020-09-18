@@ -89,12 +89,13 @@ th {
 }
 
 #comment input[type=textarea] {
-    width: fit-content;
+    width: 80%;
 }
 
 #comment input {
     margin: 20px;
     padding: 5px;
+    border: 2px solid black;
 
 }
 
