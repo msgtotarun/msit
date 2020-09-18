@@ -15,9 +15,10 @@
 #img1 {
     position: relative;
     float: right;
-    height: 400px;
+    width: 30%;
+    height: 550px;
     margin: 2%;
-    border-radius: 30%;
+    border-radius: 50%;
     border: 2px solid teal;
 }
 
@@ -49,9 +50,52 @@
 
 h2 {
     color: crimson;
-    margin: 2% 1%;
+    margin: 2% .5%;
 }
 
 .contain {
     margin: 2%;
+}
+
+#course {
+    margin: 2%;
+}
+
+#course ol {
+    color: crimson;
+}
+
+.tr {
+    padding: 10px;
+}
+
+#course ol>ul {
+    position: relative;
+    left: 4%;
+    color: black;
+}
+
+td,
+th {
+    text-align: left;
+    width: 50%;
+}
+
+#comment {
+    box-sizing: border-box;
+    width: 50%;
+    background-color: rgba(171, 173, 167, 0.918);
+    padding: 20px;
+}
+
+#comment input {
+    padding: 5px;
+    margin: 20px;
+}
+
+#comment input[type=submit] {
+    margin-left: 40%;
+    cursor: pointer;
+    background-color: teal;
+    color: aliceblue;
 }
