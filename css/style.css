@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    background-color: rgb(7, 2, 39);
+    color: antiquewhite;
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+}
